@@ -17,12 +17,11 @@ scale = Vector2( 0.55, 0.55 )
 texture = ExtResource( 2 )
 
 [node name="Deck" type="Node2D" parent="."]
+position = Vector2( 850, 43 )
 
 [node name="DeckDraw" type="TextureButton" parent="Deck"]
-margin_left = 866.0
-margin_top = 36.0
-margin_right = 991.0
-margin_bottom = 211.0
+margin_right = 125.0
+margin_bottom = 175.0
 input_pass_on_modal_close_click = false
 texture_normal = ExtResource( 5 )
 texture_pressed = ExtResource( 5 )

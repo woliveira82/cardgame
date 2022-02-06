@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://cards/BaseCard.gd" type="Script" id=1]
 [ext_resource path="res://assets/cards/card borders etc/cardborder.png" type="Texture" id=2]
 [ext_resource path="res://assets/font/Comfortaa-Bold.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://assets/cards/card borders etc/background shade.png" type="Texture" id=4]
+[ext_resource path="res://assets/cards/card borders etc/Back_Texture.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 15
@@ -211,3 +212,7 @@ margin_top = 320.0
 margin_right = 249.0
 margin_bottom = 350.0
 rect_min_size = Vector2( 0, 30 )
+
+[node name="CardBack" type="Sprite" parent="."]
+texture = ExtResource( 5 )
+centered = false
