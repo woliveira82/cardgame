@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Squad Leader.png-51dc8891e603291585daad8207e6c9c8.stex"
+path="res://.import/SquadLeader.png-678483eeeee9814aa6c3a56af259776d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cards/units/Squad Leader.png"
-dest_files=[ "res://.import/Squad Leader.png-51dc8891e603291585daad8207e6c9c8.stex" ]
+source_file="res://assets/cards/units/SquadLeader.png"
+dest_files=[ "res://.import/SquadLeader.png-678483eeeee9814aa6c3a56af259776d.stex" ]
 
 [params]
 

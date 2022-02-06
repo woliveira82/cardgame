@@ -10,10 +10,8 @@ size = 15
 font_data = ExtResource( 3 )
 
 [node name="BaseCard" type="MarginContainer"]
-anchor_right = 0.244
-anchor_bottom = 0.583
-margin_right = 0.143982
-margin_bottom = 0.200012
+margin_right = 250.0
+margin_bottom = 350.0
 rect_pivot_offset = Vector2( 125, 175 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -28,17 +26,17 @@ texture = ExtResource( 2 )
 centered = false
 
 [node name="Bars" type="VBoxContainer" parent="."]
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 350.0
 
 [node name="TopGap" type="MarginContainer" parent="Bars"]
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 25.0
 rect_min_size = Vector2( 0, 25 )
 
 [node name="TopBar" type="HBoxContainer" parent="Bars"]
 margin_top = 29.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 47.0
 
 [node name="LeftGap" type="MarginContainer" parent="Bars/TopBar"]
@@ -68,13 +66,13 @@ text = "Footman"
 
 [node name="MidGap" type="MarginContainer" parent="Bars/TopBar"]
 margin_left = 102.0
-margin_right = 211.0
+margin_right = 210.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 
 [node name="Cost" type="MarginContainer" parent="Bars/TopBar"]
-margin_left = 215.0
-margin_right = 221.0
+margin_left = 214.0
+margin_right = 220.0
 margin_bottom = 18.0
 
 [node name="NinePatchRect" type="NinePatchRect" parent="Bars/TopBar/Cost"]
@@ -93,20 +91,20 @@ custom_fonts/font = SubResource( 1 )
 text = "1"
 
 [node name="RightGap" type="MarginContainer" parent="Bars/TopBar"]
-margin_left = 225.0
-margin_right = 250.0
+margin_left = 224.0
+margin_right = 249.0
 margin_bottom = 18.0
 rect_min_size = Vector2( 25, 0 )
 
 [node name="MidGap" type="MarginContainer" parent="Bars"]
 margin_top = 51.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 228.0
 size_flags_vertical = 3
 
 [node name="SpecialText" type="HBoxContainer" parent="Bars"]
 margin_top = 232.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 250.0
 
 [node name="LeftGap" type="MarginContainer" parent="Bars/SpecialText"]
@@ -136,19 +134,19 @@ text = "Melee"
 
 [node name="MidGap" type="MarginContainer" parent="Bars/SpecialText"]
 margin_left = 80.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 
 [node name="LowerGap" type="MarginContainer" parent="Bars"]
 margin_top = 254.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 294.0
 rect_min_size = Vector2( 0, 40 )
 
 [node name="BottomBar" type="HBoxContainer" parent="Bars"]
 margin_top = 298.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 316.0
 
 [node name="LeftGap" type="MarginContainer" parent="Bars/BottomBar"]
@@ -178,13 +176,13 @@ text = "1/1"
 
 [node name="MidGap" type="MarginContainer" parent="Bars/BottomBar"]
 margin_left = 52.0
-margin_right = 208.0
+margin_right = 207.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 
 [node name="Health" type="MarginContainer" parent="Bars/BottomBar"]
-margin_left = 212.0
-margin_right = 221.0
+margin_left = 211.0
+margin_right = 220.0
 margin_bottom = 18.0
 
 [node name="NinePatchRect" type="NinePatchRect" parent="Bars/BottomBar/Health"]
@@ -203,13 +201,13 @@ custom_fonts/font = SubResource( 1 )
 text = "2"
 
 [node name="RightGap" type="MarginContainer" parent="Bars/BottomBar"]
-margin_left = 225.0
-margin_right = 250.0
+margin_left = 224.0
+margin_right = 249.0
 margin_bottom = 18.0
 rect_min_size = Vector2( 25, 0 )
 
 [node name="BottomGap" type="MarginContainer" parent="Bars"]
 margin_top = 320.0
-margin_right = 250.0
+margin_right = 249.0
 margin_bottom = 350.0
 rect_min_size = Vector2( 0, 30 )
