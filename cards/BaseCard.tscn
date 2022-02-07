@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://cards/BaseCard.gd" type="Script" id=1]
 [ext_resource path="res://assets/cards/card borders etc/cardborder.png" type="Texture" id=2]
 [ext_resource path="res://assets/font/Comfortaa-Bold.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://assets/cards/card borders etc/background shade.png" type="Texture" id=4]
 [ext_resource path="res://assets/cards/card borders etc/Back_Texture.png" type="Texture" id=5]
+[ext_resource path="res://assets/cards/card borders etc/Gold_Border.png" type="Texture" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 15
@@ -213,6 +214,15 @@ margin_right = 249.0
 margin_bottom = 350.0
 rect_min_size = Vector2( 0, 30 )
 
+[node name="Focus" type="TextureButton" parent="."]
+margin_right = 249.0
+margin_bottom = 350.0
+texture_hover = ExtResource( 6 )
+expand = true
+
 [node name="CardBack" type="Sprite" parent="."]
 texture = ExtResource( 5 )
 centered = false
+
+[connection signal="mouse_entered" from="Focus" to="." method="_on_Focus_mouse_entered"]
+[connection signal="mouse_exited" from="Focus" to="." method="_on_Focus_mouse_exited"]
